@@ -12,7 +12,7 @@ export default function Userdatas({ data }) {
       <p>Description: {data.description ?? "Doesnt exist"}</p>
       <p>
         URL:{" "}
-        <a href={data.html_url} target="_blank">
+        <a href={data.html_url} target="_blank" rel="noreferrer">
           {data.html_url}
         </a>
       </p>

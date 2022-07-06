@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <>
       <button>
-        <a href={`https://github.com/${user}`} target="_blank">
+        <a href={`https://github.com/${user}`} target="_blank" rel="noreferrer">
           {user}'s Github
         </a>
       </button>
